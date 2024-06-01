@@ -1,11 +1,13 @@
 {
-  "spider": "./y.jar;md5;2a085160a4140e1697c5d6393901ec7e",
-
+  "spider": "./y.jar;md5;623f19de34e57a4cad2b0bfd3183b6aa",
+  "wallpaper": "https://深色壁纸.饭.eu.org/",
+  
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
   "lives": [
      {
       "name": "直播",
       "type": 0,
-      "url": "http://home.jundie.top:81/Cat/tv/live.txt",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YRing/TVBox/yr/lib/live.txt",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
     },
     {
@@ -14,19 +16,17 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1lSaW5nL1RWQm94L3lyL2xpYi9saXZlLnR4dA=="
           ]
         }
       ],
       "epg": "http://epg.51zmt.top:8000/api/diyp/"
     }
   ],
-
-
   "sites": [
     {
       "key": "豆豆",
-      "name": "全接口启用智能去广告",
+      "name": "饭太硬",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
@@ -41,7 +41,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "aliToken": "./lib/token.txt",
+        "quarkCookie": "./lib/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://www.wogg.link/",
+        "danMu": "弹"
+      }
     },
     {
       "key": "YGP",
@@ -77,6 +83,7 @@
       "type": 3,
       "api": "csp_YCyz",
       "timeout": 15,
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -290,7 +297,8 @@
       "key": "88js",
       "name": "⚽ 88┃看球",
       "type": 3,
-      "api": "csp_Kanqiu",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
       "style": {
         "type": "list"
       },
@@ -304,19 +312,6 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jrk.js",
-      "style": {
-        "type": "list"
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "310js",
-      "name": "⚽310┃看球",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/310直播.js",
       "style": {
         "type": "list"
       },
@@ -450,7 +445,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "./lib/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "YiSo",
@@ -460,7 +459,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "aliToken": "./lib/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "PanSou",
@@ -470,17 +472,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
-    },
-    {
-      "key": "UpYun",
-      "name": "😻Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "aliToken": "./lib/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "PanSearch",
@@ -490,7 +485,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "aliToken": "./lib/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "push_agent",
@@ -499,7 +497,11 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "http://127.0.0.1:9978/file/tvbox/59ef15ac-a76f-42f7-8e36-8a388dfb2fb7/token.txt"
+      "ext": {
+        "aliToken": "./lib/token.txt",
+        "quarkCookie": "./lib/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "Bili",
@@ -607,6 +609,49 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "fan",
+      "name": "导航 https://饭太硬.com",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "cc",
+      "name": "请勿相信视频中广告",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "可可",
+      "name": "👻可可┃多线",
+      "type": 3,
+      "api": "csp_Kekys",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "米搜",
+      "name": "🦋米搜┃搜索",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "./lib/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     }
   ],
   "doh": [

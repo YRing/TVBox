@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{FB2A50B6-42DD-42C1-A00D-CAF54B4E48E5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		y.jar = y.jar
+		y.json = y.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E6249415-7EB0-4145-B000-022FCDEFF18C}"
+	ProjectSection(SolutionItems) = preProject
+		lib\310直播.js = lib\310直播.js
+		lib\88看球.js = lib\88看球.js
+		lib\bilibili.json = lib\bilibili.json
+		lib\biliych.json = lib\biliych.json
+		lib\cheerio.min.js = lib\cheerio.min.js
+		lib\cookie.txt = lib\cookie.txt
+		lib\crypto-js.js = lib\crypto-js.js
+		lib\drpy2.min.js = lib\drpy2.min.js
+		lib\gbk.js = lib\gbk.js
+		lib\huya2.js = lib\huya2.js
+		lib\jp.js = lib\jp.js
+		lib\jrk.js = lib\jrk.js
+		lib\live.txt = lib\live.txt
+		lib\MTV.json = lib\MTV.json
+		lib\nmys.json = lib\nmys.json
+		lib\token.txt = lib\token.txt
+		lib\企鹅直播.json = lib\企鹅直播.json
+		lib\兔小贝.js = lib\兔小贝.js
+		lib\初中课堂.json = lib\初中课堂.json
+		lib\小学课堂.json = lib\小学课堂.json
+		lib\少儿教育.json = lib\少儿教育.json
+		lib\斗鱼直播.js = lib\斗鱼直播.js
+		lib\有声小说吧.js = lib\有声小说吧.js
+		lib\模板.js = lib\模板.js
+		lib\短视频.js = lib\短视频.js
+		lib\酷奇MV.js = lib\酷奇MV.js
+		lib\高中课堂.json = lib\高中课堂.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6249415-7EB0-4145-B000-022FCDEFF18C} = {FB2A50B6-42DD-42C1-A00D-CAF54B4E48E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EBED002-BC37-494C-BDE6-56958B08D53D}
+	EndGlobalSection
+EndGlobal
