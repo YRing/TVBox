@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E6249415-7EB
 		lib\bilibili.json = lib\bilibili.json
 		lib\biliych.json = lib\biliych.json
 		lib\cheerio.min.js = lib\cheerio.min.js
+		lib\Cloud-drive.txt = lib\Cloud-drive.txt
 		lib\cookie.txt = lib\cookie.txt
 		lib\crypto-js.js = lib\crypto-js.js
 		lib\drpy2.min.js = lib\drpy2.min.js
