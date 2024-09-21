@@ -214,16 +214,6 @@
       "changeable": 1
     },
     {
-      "key": "樱花",
-      "name": "樱花┃多线",
-      "type": 3,
-      "api": "csp_Yh007",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "zxzj",
       "name": "在线┃外剧",
       "type": 3,
@@ -479,6 +469,19 @@
       }
     },
     {
+      "key": "Sso",
+      "name": "盘他┃三盘",
+      "type": 3,
+      "api": "csp_PanSso",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "lib/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
       "key": "夸搜",
       "name": "夸搜┃搜索",
       "type": 3,
@@ -495,18 +498,6 @@
       "name": "易搜┃搜索",
       "type": 3,
       "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive":"./lib/Cloud-drive.txt",
-        "from":"4k|auto"}
-    },
-    {
-      "key": "PanSou",
-      "name": "盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
