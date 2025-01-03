@@ -12,34 +12,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E6249415-7EB0-4145-B000-022FCDEFF18C}"
 	ProjectSection(SolutionItems) = preProject
-		lib\310直播.js = lib\310直播.js
-		lib\88看球.js = lib\88看球.js
-		lib\bilibili.json = lib\bilibili.json
-		lib\biliych.json = lib\biliych.json
-		lib\cheerio.min.js = lib\cheerio.min.js
+		lib\310.txt = lib\310.txt
+		lib\ali_token.txt = lib\ali_token.txt
+		lib\bili.txt = lib\bili.txt
+		lib\biliych.txt = lib\biliych.txt
 		lib\Cloud-drive.txt = lib\Cloud-drive.txt
-		lib\cookie.txt = lib\cookie.txt
-		lib\crypto-js.js = lib\crypto-js.js
-		lib\drpy2.min.js = lib\drpy2.min.js
-		lib\gbk.js = lib\gbk.js
-		lib\huya2.js = lib\huya2.js
-		lib\jp.js = lib\jp.js
-		lib\jrk.js = lib\jrk.js
+		lib\ddys.txt = lib\ddys.txt
+		lib\douyuzhibo.txt = lib\douyuzhibo.txt
+		lib\drpy2.min.txt = lib\drpy2.min.txt
+		lib\huyazhibo.txt = lib\huyazhibo.txt
+		lib\jrs.txt = lib\jrs.txt
 		lib\live.txt = lib\live.txt
-		lib\MTV.json = lib\MTV.json
-		lib\nmys.json = lib\nmys.json
-		lib\token.txt = lib\token.txt
-		lib\企鹅直播.json = lib\企鹅直播.json
-		lib\兔小贝.js = lib\兔小贝.js
-		lib\初中课堂.json = lib\初中课堂.json
-		lib\小学课堂.json = lib\小学课堂.json
-		lib\少儿教育.json = lib\少儿教育.json
-		lib\斗鱼直播.js = lib\斗鱼直播.js
-		lib\有声小说吧.js = lib\有声小说吧.js
-		lib\模板.js = lib\模板.js
-		lib\短视频.js = lib\短视频.js
-		lib\酷奇MV.js = lib\酷奇MV.js
-		lib\高中课堂.json = lib\高中课堂.json
+		lib\ol.txt = lib\ol.txt
+		lib\quark_cookie.txt = lib\quark_cookie.txt
+		lib\uc_cookie.txt = lib\uc_cookie.txt
 	EndProjectSection
 EndProject
 Global
