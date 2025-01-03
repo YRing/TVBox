@@ -1,5 +1,5 @@
 {
-  "spider": "./y.jar;md5;md5;7c6dbc73b47bcff6a7744f6aecedebc2",
+  "spider": "./y.jar;md5;md5;9136a7f6aec51c5b18e911121774ab5f",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
@@ -150,6 +150,15 @@
       "ext": "https://www.zxzjhd.com/"
     },
     {
+      "key": "csp_Bttoo",
+      "name": "比特┃秒播",
+      "type": 3,
+      "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "苹果",
       "name": "苹果┃不卡",
       "type": 3,
@@ -252,17 +261,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "贱贱",
-      "name": "贱贱┃P2P",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp.js"
     },
     {
       "key": "Auete",
