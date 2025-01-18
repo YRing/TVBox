@@ -59,65 +59,6 @@
       }
     },
     {
-      "key": "热播",
-      "name": "热播┃直连",
-      "type": 3,
-      "api": "csp_TianTianGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": 0
-      },
-      "timeout": 10
-    },
-    {
-      "key": "天天",
-      "name": "天天┃直连",
-      "type": 3,
-      "api": "csp_TianTianGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": 1
-      },
-      "timeout": 10
-    },
-    {
-      "key": "文才",
-      "name": "文才┃在线",
-      "type": 3,
-      "api": "csp_JpysGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "糯米",
-      "name": "糯米┃秒播",
-      "type": 3,
-      "api": "csp_NmysGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "浪酷弹幕版",
-      "name": "浪酷┃秒播",
-      "type": 3,
-      "api": "csp_TianTianGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": 2
-      },
-      "timeout": 10
-    },
-    {
       "key": "玩偶",
       "name": "玩偶┃4K",
       "type": 3,
@@ -148,6 +89,75 @@
       "timeout": 30
     },
     {
+      "key": "热播",
+      "name": "热播┃直连",
+      "type": 3,
+      "api": "csp_TianTianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": 0
+      },
+      "timeout": 5
+    },
+    {
+      "key": "天天",
+      "name": "天天┃直连",
+      "type": 3,
+      "api": "csp_TianTianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": 1
+      },
+      "timeout": 5
+    },
+    {
+      "key": "文才",
+      "name": "文才┃在线",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
+    },
+    {
+      "key": "糯米",
+      "name": "糯米┃秒播",
+      "type": 3,
+      "api": "csp_NmysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
+    },
+    {
+      "key": "浪酷版",
+      "name": "浪酷┃秒播",
+      "type": 3,
+      "api": "csp_TianTianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": 2
+      },
+      "timeout": 5
+    },
+    {
+      "key": "视觉",
+      "name": "视觉┃在线",
+      "type": 3,
+      "api": "csp_ShiJueGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
+    },
+    {
       "key": "小苹果",
       "name": "苹果┃直连",
       "type": 3,
@@ -155,7 +165,27 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "timeout": 10
+      "timeout": 5
+    },
+    {
+      "key": "皮皮虾",
+      "name": "皮虾┃App",
+      "type": 3,
+      "api": "csp_PPXGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
+    },
+    {
+      "key": "人人",
+      "name": "人人┃App",
+      "type": 3,
+      "api": "csp_RenRenGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
     },
     {
       "key": "木耳",
@@ -221,7 +251,7 @@
       }
     },
     {
-      "key": "立播弹幕版",
+      "key": "立播版",
       "name": "立播┃在线",
       "type": 3,
       "api": "csp_LibvioGuard",
@@ -237,7 +267,7 @@
       "timeout": 30
     },
     {
-      "key": "蜡笔弹幕",
+      "key": "蜡笔",
       "name": "蜡笔┃在线",
       "type": 3,
       "api": "csp_LabiGuard",
@@ -252,7 +282,7 @@
       "timeout": 25
     },
     {
-      "key": "木偶弹幕",
+      "key": "木偶",
       "name": "木偶┃在线",
       "type": 3,
       "api": "csp_MuouGuard",
@@ -333,16 +363,6 @@
       "timeout": 10
     },
     {
-      "key": "荐片",
-      "name": "荐片┃手机",
-      "type": 3,
-      "api": "csp_JianpianGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
       "key": "我的阿里",
       "name": "我的┃阿里",
       "type": 3,
@@ -401,6 +421,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_Btt",
+      "name": "比特┃在线",
+      "type": 3,
+      "api": "csp_BttGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
       "timeout": 10
     },
     {
