@@ -1,12 +1,12 @@
 {
-  "spider": "./y.jar;md5;md5;ba9ad62dbb2490a5e7e0c42ff61943f6",
+  "spider": "./y.jar;md5;md5;7f83a3b58a5140e12bc74cd3ef0ebf97",
   "wallpaper":  "https://深色壁纸.xxooo.cf/",
   
   "lives": [
      {
       "name": "直播",
       "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YRing/TVBox/yr/lib/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YRing/TVBox/ok/lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -89,6 +89,26 @@
       "timeout": 30
     },
     {
+      "key": "人人",
+      "name": "人人┃App",
+      "type": 3,
+      "api": "csp_RenRenGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "瓜子",
+      "name": "瓜子┃App",
+      "type": 3,
+      "api": "csp_GuaziGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
       "key": "热播",
       "name": "热播┃直连",
       "type": 3,
@@ -99,7 +119,7 @@
       "ext": {
         "site": 0
       },
-      "timeout": 5
+      "timeout": 10
     },
     {
       "key": "天天",
@@ -112,7 +132,7 @@
       "ext": {
         "site": 1
       },
-      "timeout": 5
+      "timeout": 10
     },
     {
       "key": "文才",
@@ -132,7 +152,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "timeout": 5
+      "timeout": 10
     },
     {
       "key": "浪酷版",
@@ -145,7 +165,7 @@
       "ext": {
         "site": 2
       },
-      "timeout": 5
+      "timeout": 10
     },
     {
       "key": "视觉",
@@ -155,33 +175,13 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "timeout": 5
+      "timeout": 10
     },
     {
       "key": "小苹果",
       "name": "苹果┃直连",
       "type": 3,
       "api": "csp_XpgGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 5
-    },
-    {
-      "key": "皮皮虾",
-      "name": "皮虾┃App",
-      "type": 3,
-      "api": "csp_PPXGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 5
-    },
-    {
-      "key": "人人",
-      "name": "人人┃App",
-      "type": 3,
-      "api": "csp_RenRenGuard",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -363,6 +363,16 @@
       "timeout": 10
     },
     {
+      "key": "荐片",
+      "name": "荐片┃手机",
+      "type": 3,
+      "api": "csp_JianpianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
       "key": "我的阿里",
       "name": "我的┃阿里",
       "type": 3,
@@ -422,6 +432,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "timeout": 10
+    },
+    {
+      "key": "星芽短剧",
+      "name": "星芽┃短剧",
+      "type": 3,
+      "api": "csp_AppXYGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 20
     },
     {
       "key": "csp_Btt",
