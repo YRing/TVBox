@@ -1,5 +1,5 @@
 {
-  "spider": "./y.jar;md5;5eaae4b083c5fc6c47c1cc0a204364b2",
+  "spider": "./y.jar;md5;c4745a1b57105d124cf1b429eba5d4bf",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
@@ -7,7 +7,7 @@
      {
       "name": "直播",
       "type": 0,
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YRing/TVBox/yr/lib/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YRing/TVBox/yr/lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -109,26 +109,34 @@
       }
     },
     {
-        "key":"Lib",
-        "name": "立播┃秒播",
-        "type": 3,
-        "api": "csp_Libvio",
-        "searchable": 1,
-        "quickSearch": 1,
-        "changeable":1,
-        "ext": {
-            "Cloud-drive":"./lib/Cloud-drive.txt",
-            "from":"4k|auto"}
+      "key": "原创",
+      "name": "原创┃不卡",
+      "type": 3,
+      "api": "csp_YCyz",
+      "timeout": 15,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
-        "key":"文采",
-        "name":"文采┃秒播",
-        "type":3,
-        "api":"csp_Jpys",
-        "playerType":2,
-        "searchable":1,
-        "quickSearch":1,
-        "changeable":1
+      "key": "苹果",
+      "name": "苹果┃不卡",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "白白",
+      "name": "白白┃秒播",
+      "type": 3,
+      "api": "csp_Sbaibai",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "糯米",
@@ -140,10 +148,23 @@
       "changeable": 1
     },
     {
-      "key": "白白",
-      "name": "白白┃秒播",
+      "key": "Lib",
+      "name": "立播┃秒播",
       "type": 3,
-      "api": "csp_Sbaibai",
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "文采",
+      "name": "文采┃秒播",
+      "type": 3,
+      "api": "csp_Jpys",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -170,35 +191,34 @@
       "changeable": 1
     },
     {
-      "key": "苹果",
-      "name": "苹果┃不卡",
+      "key": "贱贱",
+      "name": "贱贱┃P2P",
       "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "原创",
-      "name": "原创┃不卡",
-      "type": 3,
-      "api": "csp_YCyz",
-      "timeout": 15,
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
+      "api": "csp_JPJ",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
+      "changeable": 0
+    },
+    {
+      "key": "低端",
+      "name": "低端┃外剧",
+      "type": 3,
+      "api": "csp_Ddrk",
+      "playerType": "2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "AppSj",
+      "name": "视界┃多线",
+      "type": 3,
+      "api": "csp_AppSj",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "木星",
@@ -208,7 +228,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
+      "ext": "FbjPcVZY48PN/RIZ5QqOrspjLMNAA5xaRiBa8vT6iB4RAYHOp3SFmQTE9v/hX3nlPzHB3X051Sp3XDoyUIN9aRARCZzZk1aDbikK"
     },
     {
       "key": "热播",
@@ -230,7 +250,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+      "ext": "AO7TcBkd8I2bux0Y8Qze6tVlMg=="
     },
     {
       "key": "欢视",
@@ -241,17 +261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-    },
-    {
-      "key": "低端",
-      "name": "低端┃外剧",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "playerType": "2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
     },
     {
       "key": "可可",
@@ -262,6 +272,17 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "厂长┃不卡",
+      "type": 3,
+      "api": "csp_NewCz",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czzyvideo.com/"
     },
     {
       "key": "Auete",
