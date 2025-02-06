@@ -7,7 +7,7 @@
      {
       "name": "直播",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YRing/TVBox/yr/lib/live.txt",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/YRing/TVBox/refs/heads/yr/lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
