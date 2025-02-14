@@ -7,22 +7,10 @@
      {
       "name": "直播",
       "type": 0,
-      "url": "https://gh-proxy.com/raw.githubusercontent.com/YRing/TVBox/refs/heads/yr/lib/live.txt",
+      "url": "./lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    { 
-        "name": "TV", 
-        "type": 0, 
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YRing/TVBox/th/lib/tv.m3u",
-        "playerType": 1
-    },
-    {
-        "name":"IPV6",
-        "type":0,
-        "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/YRing/TVBox/th/lib/ipv6.m3u",
-        "playerType":1 
     },
     {
       "group": "redirect",
@@ -129,20 +117,31 @@
       "changeable": 1
     },
     {
-      "key": "白白",
-      "name": "白白┃秒播",
+      "key": "厂长",
+      "name": "厂长┃不卡",
       "type": 3,
-      "api": "csp_Sbaibai",
+      "api": "csp_NewCz",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "ext": "https://www.czzyvideo.com/"
     },
     {
       "key": "糯米",
       "name": "糯米┃秒播",
       "type": 3,
       "api": "csp_Nmyswv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "白白",
+      "name": "白白┃秒播",
+      "type": 3,
+      "api": "csp_Sbaibai",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -159,16 +158,6 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
       }
-    },
-    {
-      "key": "文采",
-      "name": "文采┃秒播",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     },
    {
       "key": "zxzj",
@@ -191,14 +180,14 @@
       "changeable": 1
     },
     {
-      "key": "贱贱",
-      "name": "贱贱┃P2P",
+      "key": "文采",
+      "name": "文采┃秒播",
       "type": 3,
-      "api": "csp_JPJ",
+      "api": "csp_Jpys",
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "低端",
@@ -211,10 +200,21 @@
       "changeable": 1
     },
     {
-      "key": "AppSj",
-      "name": "视界┃多线",
+      "key": "兄弟",
+      "name": "兄弟┃多线",
       "type": 3,
-      "api": "csp_AppSj",
+      "api": "csp_AppSx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbdBHCJkQSzBQt+vmhxkUAtbepC6RjQjA6r70U2OrZ3mJyX4hh2AsXS8mTp9pKB8="
+    },
+    {
+      "key": "南瓜",
+      "name": "南瓜┃多线",
+      "type": 3,
+      "api": "csp_NanGua",
+      "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
@@ -274,17 +274,6 @@
       "changeable": 1
     },
     {
-      "key": "厂长",
-      "name": "厂长┃不卡",
-      "type": 3,
-      "api": "csp_NewCz",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
-    },
-    {
       "key": "Auete",
       "name": "奥特┃无广",
       "type": 3,
@@ -294,6 +283,16 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://auete.pro/"
+    },
+    {
+      "key": "贱贱",
+      "name": "荐片┃P2P",
+      "type": 3,
+      "api": "csp_JPJ",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "新6V",
