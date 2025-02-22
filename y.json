@@ -6,22 +6,10 @@
      {
       "name": "直播",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/YRing/TVBox/ok/lib/live.txt",
+      "url": "./lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    { 
-        "name": "TV", 
-        "type": 0, 
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YRing/TVBox/th/lib/tv.m3u",
-        "playerType": 1
-    },
-    {
-        "name":"IPV6",
-        "type":0,
-        "url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/YRing/TVBox/th/lib/ipv6.m3u",
-        "playerType":1 
     },
     {
       "group": "redirect",
@@ -87,16 +75,6 @@
         "uc_cookie": "./lib/uc_cookie.txt"
       },
       "timeout": 30
-    },
-    {
-      "key": "人人",
-      "name": "人人┃App",
-      "type": 3,
-      "api": "csp_RenRenGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
     },
     {
       "key": "瓜子",
@@ -166,6 +144,16 @@
         "site": 2
       },
       "timeout": 10
+    },
+    {
+      "key": "南瓜",
+      "name": "南瓜┃在线",
+      "type": 3,
+      "api": "csp_NanguaGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 5
     },
     {
       "key": "小苹果",
@@ -660,8 +648,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "cookie": "./lib/quark_cookie.txt",
-        "danmu": true
+        "cookie": "./lib/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -676,8 +663,7 @@
       "ext": {
         "token": "./lib/ali_token.txt",
         "cookie": "./lib/quark_cookie.txt",
-        "uc_cookie": "./lib/uc_cookie.txt",
-        "danmu": true
+        "uc_cookie": "./lib/uc_cookie.txt"
       },
       "timeout": 15
     },
@@ -692,8 +678,7 @@
       "ext": {
         "token": "./lib/ali_token.txt",
         "cookie": "./lib/quark_cookie.txt",
-        "uc_cookie": "./lib/uc_cookie.txt",
-        "danmu": true
+        "uc_cookie": "./lib/uc_cookie.txt"
       },
       "timeout": 15
     },
