@@ -6,7 +6,7 @@
      {
       "name": "直播",
       "type": 0,
-      "url": "./lib/live.txt",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/YRing/TVBox/refs/heads/yr/lib/live.txt",
       "playerType":1,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
@@ -144,16 +144,6 @@
         "site": 2
       },
       "timeout": 10
-    },
-    {
-      "key": "南瓜",
-      "name": "南瓜┃在线",
-      "type": 3,
-      "api": "csp_NanguaGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 5
     },
     {
       "key": "小苹果",
