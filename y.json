@@ -1,5 +1,5 @@
 {
-  "spider": "./y.png;md5;f7de4a6a445354df4a588f4468e32e73",
+  "spider": "./y.png;md5;0c939673f147527aaa73f3baf94439a7",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
 
   "lives": [
@@ -64,6 +64,7 @@
       "name": "🦢二小┃4K",
       "type": 3,
       "api": "csp_ErXiaoGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -107,6 +108,7 @@
       "name": "👠蜡笔┃4K",
       "type": 3,
       "api": "csp_LabiGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -117,6 +119,7 @@
       "name": "🪵木偶┃4K",
       "type": 3,
       "api": "csp_MuouGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -127,16 +130,18 @@
       "name": "🪅多多┃4K",
       "type": 3,
       "api": "csp_DuoDuoGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
       "timeout": 25
     },
     {
-      "key": "百家",
-      "name": "💒百家┃4K",
+      "key": "小飒",
+      "name": "💒小飒┃4K",
       "type": 3,
-      "api": "csp_BaijiaGuard",
+      "api": "csp_XsayangGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -147,16 +152,7 @@
       "name": "💌至臻┃4K",
       "type": 3,
       "api": "csp_ZhiZhenGuard",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 25
-    },
-    {
-      "key": "闪电",
-      "name": "🌈闪电┃4K",
-      "type": 3,
-      "api": "csp_ShanDianGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -167,6 +163,7 @@
       "name": "🐯虎斑┃4K",
       "type": 3,
       "api": "csp_HuBanGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -177,6 +174,7 @@
       "name": "🍀种子┃4K",
       "type": 3,
       "api": "csp_SeedHubGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -196,23 +194,13 @@
       "timeout": 25
     },
     {
-      "key": "校长",
-      "name": "💮小章┃4K",
-      "type": 3,
-      "api": "csp_XiaoZhangGuard",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
       "key": "光影",
       "name": "🎥光影┃4K",
       "type": 3,
       "api": "csp_GuanyingGuard",
       "searchable": 1,
       "filterable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "timeout": 30
     },
     {
@@ -220,6 +208,7 @@
       "name": "🍊云集┃4K",
       "type": 3,
       "api": "csp_YunJiGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -230,6 +219,7 @@
       "name": "🦊极狐┃4K",
       "type": 3,
       "api": "csp_Fox4kGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -240,6 +230,7 @@
       "name": "🎸盘他┃4K",
       "type": 3,
       "api": "csp_PantaGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -250,6 +241,7 @@
       "name": "🧽海绵┃4K",
       "type": 3,
       "api": "csp_HaiMianGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -260,6 +252,7 @@
       "name": "🐳雷鲸┃4K",
       "type": 3,
       "api": "csp_LeiJingGuard",
+      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -270,6 +263,7 @@
       "name": "🌂123┃4K",
       "type": 3,
       "api": "csp_Time123Guard",
+      "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
       "filterable": 1,
@@ -282,6 +276,7 @@
       "api": "csp_GuaziGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -292,6 +287,7 @@
       "api": "csp_TianTianGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "ext": {
         "site": 0
@@ -305,6 +301,7 @@
       "api": "csp_JpysGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -315,6 +312,7 @@
       "api": "csp_NmysGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -325,6 +323,7 @@
       "api": "csp_TianTianGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "ext": {
         "site": 2
@@ -338,16 +337,7 @@
       "api": "csp_XpgGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "加菲",
-      "name": "🐱加菲┃App",
-      "type": 3,
-      "api": "csp_JiaFeiGuard",
-      "searchable": 1,
-      "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -358,6 +348,7 @@
       "api": "csp_YunYunGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -368,6 +359,7 @@
       "api": "csp_XiongYingGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -378,6 +370,7 @@
       "api": "csp_KaFeiGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -388,6 +381,7 @@
       "api": "csp_CangShuGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -399,6 +393,7 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -409,6 +404,7 @@
       "api": "csp_CzzyGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -419,6 +415,7 @@
       "api": "csp_JianpianGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "timeout": 10
     },
@@ -429,6 +426,7 @@
       "api": "csp_MyQuarkGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -443,6 +441,7 @@
       "api": "csp_MyUcGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -457,6 +456,7 @@
       "api": "csp_MyBaiduGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -471,6 +471,7 @@
       "api": "csp_My123Guard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -485,6 +486,7 @@
       "api": "csp_My189Guard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -499,6 +501,7 @@
       "api": "csp_My115Guard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 0,
       "indexs": 0,
       "style": {
@@ -513,25 +516,9 @@
       "api": "csp_MyAliGuard",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "timeout": 30
-    },
-    {
-      "key": "阿里合集",
-      "name": "🦋阿里┃合集",
-      "type": 3,
-      "api": "csp_AliShareGuard",
-      "searchable": 0,
       "changeable": 0,
       "filterable": 0,
       "indexs": 0,
-      "ext": {
-        "share": "file://TV/阿里集合.json"
-      },
       "style": {
         "type": "list"
       },
@@ -544,6 +531,29 @@
       "api": "csp_IkanbotGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "电影天堂",
+      "name": "🎞️天堂┃采集",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "锦鲤短剧",
+      "name": "🐟锦鲤┃短剧",
+      "type": 3,
+      "api": "csp_JinliGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -554,6 +564,7 @@
       "api": "csp_AppXYGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -564,6 +575,7 @@
       "api": "csp_TianQuanGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -584,6 +596,7 @@
       "api": "csp_DdysGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 30
     },
@@ -594,6 +607,7 @@
       "api": "csp_YHDMGuard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 15
     },
@@ -604,6 +618,7 @@
       "api": "csp_Dm84Guard",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 10
     },
@@ -613,8 +628,20 @@
       "type": 3,
       "api": "csp_Xb6vGuard",
       "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
       "timeout": 20
+    },
+    {
+      "key": "聚合直播",
+      "name": "📽️聚合┃直播",
+      "type": 3,
+      "api": "csp_LivingGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "timeout": 10
     },
     {
       "key": "快手直播",
@@ -623,6 +650,7 @@
       "api": "csp_KsLiveGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -637,6 +665,7 @@
       "api": "csp_HuyaGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -650,6 +679,7 @@
       "type": 3,
       "api": "csp_GzSportGuard",
       "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "style": {
         "type": "list"
@@ -662,10 +692,21 @@
       "type": 3,
       "api": "csp_KanqiuGuard",
       "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "style": {
         "type": "list"
       },
+      "timeout": 10
+    },
+    {
+      "key": "世界听书",
+      "name": "🎸世界┃听书",
+      "type": 3,
+      "api": "csp_BookTingGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "timeout": 10
     },
     {
@@ -675,6 +716,7 @@
       "api": "csp_BilimdGuard",
       "searchable": 1,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -689,6 +731,7 @@
       "api": "csp_BiliGuard",
       "searchable": 1,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -706,6 +749,7 @@
       "api": "csp_BiliGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -723,6 +767,7 @@
       "api": "csp_BiliGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",
@@ -740,6 +785,7 @@
       "api": "csp_BiliGuard",
       "searchable": 0,
       "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
       "style": {
         "type": "rect",

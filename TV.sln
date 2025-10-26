@@ -15,17 +15,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E6249415-7EB
 		lib\310.txt = lib\310.txt
 		lib\ali_token.txt = lib\ali_token.txt
 		lib\bili.txt = lib\bili.txt
+		lib\bilixp.txt = lib\bilixp.txt
+		lib\bilixs.txt = lib\bilixs.txt
 		lib\biliych.txt = lib\biliych.txt
 		lib\Cloud-drive.txt = lib\Cloud-drive.txt
 		lib\ddys.txt = lib\ddys.txt
 		lib\douyuzhibo.txt = lib\douyuzhibo.txt
 		lib\drpy2.min.txt = lib\drpy2.min.txt
+		lib\file.html = lib\file.html
 		lib\huyazhibo.txt = lib\huyazhibo.txt
+		lib\jjssyydd.txt = lib\jjssyydd.txt
 		lib\jrs.txt = lib\jrs.txt
 		lib\live.txt = lib\live.txt
 		lib\ol.txt = lib\ol.txt
+		lib\PeIgAty8.txt = lib\PeIgAty8.txt
 		lib\quark_cookie.txt = lib\quark_cookie.txt
 		lib\uc_cookie.txt = lib\uc_cookie.txt
+		lib\zq.fif.txt = lib\zq.fif.txt
+		lib\zq.txt = lib\zq.txt
 	EndProjectSection
 EndProject
 Global
