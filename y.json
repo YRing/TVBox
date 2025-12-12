@@ -1,5 +1,5 @@
 {
-  "spider": "./y.jar;md5;9c5ab7ce8e0591e57e1f883b88dd199c",
+  "spider": "./y.jar;md5;3962e9dbce2c7b61a53b1b796f098d47",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
 
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
@@ -27,8 +27,8 @@
   ],
   "sites": [
     {
-      "key": "豆",
-      "name": "RING",
+      "key": "豆豆",
+      "name": "🅱豆瓣┃推荐",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -37,7 +37,7 @@
       "changeable": 0
     },
     {
-      "key": "Drive",
+      "key": "MDrive",
       "name": "🗂我的云盘┃我配置",
       "type": 3,
       "api": "csp_MyDriveGuard",
@@ -196,7 +196,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ0NTh0TYsL4PsF1wEM1kc4mV87b9fc/FN//x7jUuaRvFX81tz8A=="
+      "ext": "rfOX1voDIQhH8epBwpmIsuStr2HSytK11WwwcM/+XB8SbkBB4XYk/L52LroCiYRhoDrRLJ4ZkCh5q2RxCb5yUs6B5aCQVGSkR6zDgKLrFSDulg=="
+    },
+    {
+      "key": "猫猫",
+      "name": "🐟猫猫┃多线",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "rfOX1voDIQhH8epBwtCFsub0/WmdmYi/k2NkJsm7Vk4dJQZft2UtrrwhKK52i/dDilKkU5Nz+V0bwkYsVuU="
     },
     {
       "key": "鲸鱼",
