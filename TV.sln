@@ -6,12 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{FB2A50B6-42DD-42C1-A00D-CAF54B4E48E5}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		y.jar = y.jar
 		y.json = y.json
+		y1.jpg = y1.jpg
+		y2.jpg = y2.jpg
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E6249415-7EB0-4145-B000-022FCDEFF18C}"
 	ProjectSection(SolutionItems) = preProject
+		lib\1.json = lib\1.json
 		lib\310.txt = lib\310.txt
 		lib\ali_token.txt = lib\ali_token.txt
 		lib\bili.txt = lib\bili.txt
