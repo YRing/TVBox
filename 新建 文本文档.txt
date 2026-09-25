@@ -1,0 +1,2 @@
+https://g.blfrp.cn/https://raw.githubusercontent.com/YRing/TVBox/yr/y.json
+https://gh-proxy.org/https://github.com/YRing/TVBox/blob/yr/y.json
